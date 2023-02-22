@@ -11,6 +11,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { SocialComponent } from './components/social/social.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { PersonComponent } from './components/person/person.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PersonComponent } from './components/person/person.component';
     FooterComponent,
     SocialComponent,
     SkillsComponent,
-    PersonComponent
+    PersonComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,

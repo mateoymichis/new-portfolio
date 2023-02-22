@@ -1,14 +1,14 @@
-export class Persona {
+export class Person {
     id?: number;
-    nombre: string;
-    apellido: string;
-    profesion: string;
+    name: string;
+    lastname: string;
+    profession: string;
     img: string;
 
-    constructor (nombre: string, apellido: string, profesion: string, img: string) {
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.profesion = profesion;
+    constructor (name: string, lastname: string, profession: string, img: string) {
+        this.name = name;
+        this.lastname = lastname;
+        this.profession = profession;
         this.img = img;
     }
 }
