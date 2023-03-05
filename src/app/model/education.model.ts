@@ -1,5 +1,3 @@
-import { single } from "rxjs";
-
 export class Education {
     id?: number;
     name: string;
